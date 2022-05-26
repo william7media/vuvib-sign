@@ -1,0 +1,25 @@
+# Application properties
+server:
+  port: 10510
+  spring:
+    application:
+      name: vuvib-sign
+keystore:
+  type: PKCS12
+  directory: /vuvib/keystore
+hash:
+  algorithm: SHA256
+signature:
+  append: true
+  visible: true
+  page: 0
+  fontsize: 7.0
+  position:
+    llx: 10.0
+    lly: 10.0
+    urx: 100.0
+    ury: 70.0
+file:
+  directory:
+    unsigned: /vuvib/unsigned
+    signed: /vuvib/signed
